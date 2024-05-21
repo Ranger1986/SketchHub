@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InscriptionActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Inscription"
+        android:textColor="@color/red"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/remplir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Veuillez remplir les champs ci-dessous."
+        android:textColor="@color/red"
+        android:layout_below="@id/inscription"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextRegistreUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/remplir"
+        android:hint="Pseudo (Surnom)" />
+
+    <EditText
+        android:id="@+id/editTextRegistreMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRegistreUsername"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Adresse email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextRegistreAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRegistreMail"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Age"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editTextRegistrePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRegistreAge"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Mot de passe"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxPremium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRegistrePassword"
+        android:text="Compte PREMIUM" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="S'inscrire"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:layout_below="@id/checkBoxPremium"
+        android:backgroundTint="@color/yellow"/>
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Saisissez les informations de votre carte"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Nom sur la carte"
+        android:inputType="textCapCharacters"/>
+
+    <EditText
+        android:id="@+id/editTextCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Numéro de carte"
+        android:inputType="number"
+        android:maxLength="16"/>
+
+    <EditText
+        android:id="@+id/editTextExpiryMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCardNumber"
+        android:layout_marginTop="9dp"
+        android:hint="Mois d'expiration"
+        android:inputType="number"
+        android:maxLength="2"/>
+
+    <EditText
+        android:id="@+id/editTextExpiryYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCardNumber"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@id/editTextExpiryMonth"
+        android:layout_marginStart="16dp"
+        android:hint="Année d'expiration"
+        android:inputType="number"
+        android:maxLength="4"/>
+
+    <EditText
+        android:id="@+id/editTextSecurityCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextExpiryMonth"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Code de sécurité (CVV)"
+        android:inputType="number"
+        android:maxLength="3"/>
+
+    <Button
+        android:id="@+id/buttonPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payer et s'inscrire"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:layout_below="@id/editTextSecurityCode"
+        android:backgroundTint="@color/yellow" />
+</RelativeLayout>

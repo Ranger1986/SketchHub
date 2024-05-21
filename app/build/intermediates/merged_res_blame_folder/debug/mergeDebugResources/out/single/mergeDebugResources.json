@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_account.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_list_view.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\layout\\activity_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_account.png.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\account.png"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_inscription.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\layout\\activity_inscription.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sketchhub.app-debug-31:/layout_activity_account.xml.flat",
+        "source": "com.example.sketchhub.app-main-33:/layout/activity_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    }
+]
