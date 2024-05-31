@@ -41,11 +41,20 @@
     <ListView
         android:id="@+id/drawing_list"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="645dp"
         android:layout_below="@+id/linearLayout"
         android:layout_marginTop="0dp"
         android:background="#FFFFFF"
         android:divider="@color/black"
         android:dividerHeight="2dp"
         android:listSelector="@android:color/holo_red_light"/>
+    <Button
+        android:id="@+id/buttonDrawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dessiner"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:layout_below="@id/drawing_list"
+        android:backgroundTint="@color/yellow" />
 </RelativeLayout>

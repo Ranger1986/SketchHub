@@ -8,6 +8,19 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <!-- Permissions for accessing storage -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <!-- Permissions for accessing media files on Android 13 and above -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+
     <permission
         android:name="com.example.sketchhub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -51,6 +64,10 @@
         </activity>
         <activity
             android:name="com.example.sketchhub.AccountActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.sketchhub.DrawActivity"
             android:exported="true" >
         </activity>
 

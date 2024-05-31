@@ -102,5 +102,11 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+    // Méthode appelée lors du clic sur l'image du menu Home
+    public void onHomeImageClicked(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
 

@@ -7,6 +7,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.content.ContentValues;
 import android.util.Log;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Database extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "MyDatabase";
     private static final int DATABASE_VERSION = 1;
@@ -22,14 +25,23 @@ public class Database extends SQLiteOpenHelper {
                     "premium INTEGER" +
                     ")";
 
+    //Table pour les dessins
+    private static final String CREATE_TABLE_DRAWING =
+            "CREATE TABLE Drawing (" +
+                    "id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                    "user_id INTEGER," +
+                    "image_path TEXT," +
+                    "FOREIGN KEY(user_id) REFERENCES User(id)" +
+                    ")";
+
     public Database(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        // Création de la table lors de la première exécution de l'application
         db.execSQL(CREATE_TABLE_USER);
+        db.execSQL(CREATE_TABLE_DRAWING);
     }
 
     @Override
@@ -207,6 +219,59 @@ public class Database extends SQLiteOpenHelper {
         return user;
     }
 
+    // Ajoute un dessin
+    public void addDrawing(int userId, String imagePath) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("user_id", userId);
+        values.put("image_path", imagePath);
+
+        db.insert("Drawing", null, values);
+        db.close();
+    }
+
+    // Récupère les dessins par utilisateur
+    public List<String> getDrawingsByUser(int userId) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        List<String> drawings = new ArrayList<>();
+        Cursor cursor = null;
+
+        try {
+            cursor = db.query("Drawing", new String[]{"image_path"}, "user_id=?", new String[]{String.valueOf(userId)}, null, null, null);
+
+            if (cursor != null && cursor.moveToFirst()) {
+                do {
+                    int columnIndexImagePath = cursor.getColumnIndex("image_path");
+                    if (columnIndexImagePath != -1) {
+                        String imagePath = cursor.getString(columnIndexImagePath);
+                        drawings.add(imagePath);
+                    }
+                } while (cursor.moveToNext());
+            }
+        } catch (Exception e) {
+            Log.e("Database", "Error retrieving drawings: " + e.getMessage());
+        } finally {
+            if (cursor != null) {
+                cursor.close();
+            }
+            db.close();
+        }
+
+        return drawings;
+    }
+
+    // Supprime un dessin
+    public void deleteDrawing(int drawingId) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        try {
+            db.delete("Drawing", "id=?", new String[]{String.valueOf(drawingId)});
+        } catch (Exception e) {
+            Log.e("Database", "Error deleting drawing: " + e.getMessage());
+        } finally {
+            db.close();
+        }
+    }
 
 }
 

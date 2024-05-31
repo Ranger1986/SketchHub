@@ -4,8 +4,16 @@
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_redo.png.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\redo.png"
+    },
+    {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_account.xml.flat",
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_eraser.png.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\eraser.png"
     },
     {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_list_view.xml.flat",
@@ -24,8 +32,16 @@
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_undo.png.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\undo.png"
+    },
+    {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_account.png.flat",
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\account.png"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_button_design.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\button_design.xml"
     },
     {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\xml_data_extraction_rules.xml.flat",
@@ -42,6 +58,14 @@
     {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_save.png.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\save.png"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_draw.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\layout\\activity_draw.xml"
     },
     {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_payment.xml.flat",
@@ -64,12 +88,20 @@
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_home.png.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\home.png"
+    },
+    {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_pencil.png.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\pencil.png"
     },
     {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\layout_activity_main.xml.flat",
@@ -88,11 +120,15 @@
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.sketchhub.app-debug-31:/layout_activity_account.xml.flat",
-        "source": "com.example.sketchhub.app-main-33:/layout/activity_account.xml"
-    },
-    {
         "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-debug-31:\\drawable_tools_design.xml.flat",
+        "source": "C:\\Users\\lapor\\.gradle\\daemon\\8.4\\com.example.sketchhub.app-main-33:\\drawable\\tools_design.xml"
+    },
+    {
+        "merged": "com.example.sketchhub.app-debug-31:/layout_activity_inscription.xml.flat",
+        "source": "com.example.sketchhub.app-main-33:/layout/activity_inscription.xml"
     }
 ]

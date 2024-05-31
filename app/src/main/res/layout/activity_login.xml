@@ -22,6 +22,14 @@
             android:textSize="30sp" />
     </LinearLayout>
 
+    <ImageView
+        android:id="@+id/homeImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:onClick="onHomeImageClicked"
+        android:src="@drawable/home" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

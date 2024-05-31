@@ -25,5 +25,6 @@ public class MyApp extends Application {
     public static void setUserConnected(User newUserConnected){
         userConnected = newUserConnected;
     }
+
 }
 

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/homeImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="onHomeImageClicked"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <com.example.sketchhub.DrawingView
+        android:id="@+id/drawing_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:background="@drawable/tools_design">
+
+        <Button
+            android:id="@+id/button_pencil"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pencil"
+            android:backgroundTint="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/button_undo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/undo"
+            android:backgroundTint="#000000"
+            app:layout_constraintStart_toEndOf="@+id/button_pencil"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/button_redo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/redo"
+            android:backgroundTint="#000000"
+            app:layout_constraintStart_toEndOf="@+id/button_undo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/button_redColor"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#ff0000"
+            app:layout_constraintStart_toEndOf="@+id/button_redo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <Button
+            android:id="@+id/button_yellowColor"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#f1c40f"
+            app:layout_constraintStart_toEndOf="@+id/button_redColor"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/button_greenColor"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#00ff00"
+            app:layout_constraintStart_toEndOf="@+id/button_yellowColor"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/button_pinkColor"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#ff00ff"
+            app:layout_constraintStart_toEndOf="@+id/button_greenColor"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/button_blueColor"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#0000ff"
+            app:layout_constraintStart_toEndOf="@+id/button_pinkColor"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/save"
+            app:layout_constraintStart_toEndOf="@+id/button_blueColor"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
